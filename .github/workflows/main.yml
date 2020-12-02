@@ -41,7 +41,7 @@ jobs:
           
       - name: List out directory contents
         run: |
-          echo "Listing the contents of the GitHub workspace directory"
+          echo Listing the contents of the GitHub workspace directory
           ls ${{ github.workspace }}
-          echo "Recursively listing all contents of the current directory"
+          echo Recursively listing all contents of the current directory
           ls -R
