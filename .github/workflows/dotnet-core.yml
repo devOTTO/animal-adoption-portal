@@ -21,7 +21,10 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-
+    - uses: actions/upload-artifact@v2
+      with:
+        name: doyoung-artifact
+        path: /home/runner/work/animal-adoption-portal/animal-adoption-portal/AnimalAdoption.Web.Portal/bin/Release/netcoreapp3.1/AnimalAdoption.Web.Portal.dll
     - name: List out directory contents
       run: |
         echo Listing the contents of the GitHub workspace directory
