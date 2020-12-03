@@ -5,6 +5,7 @@ on:
     branches: [ training-2-2/yklee ]
 #  pull_request:
 #    branches: [ dev ]
+#  Upload 대상자 변경 테스트
 
 jobs:
   build:
