@@ -10,7 +10,7 @@ on:
 env:
   GitHubPackageFeedUrl: https://nuget.pkg.github.com/AzureSprint/index.json
   LogicProjectPath: ${{ github.WORKSPACE }}/AnimalAdoption.Common.Logic
-  AZURE_WEBAPP_NAME: AzureSprintWebAppTest_yklee
+  AZURE_WEBAPP_NAME: AzureSprintWebAppTestYKLEE
   VERSION: 1.0.0
   AZURE_WEBAPP_PACKAGE_PATH: '.'
 
