@@ -2,9 +2,9 @@ name: .NET Core
 
 on:
   push:
-    branches: [ dev ]
-  pull_request:
     branches: [ training-2-2/yujinpark ]
+  pull_request:
+    branches: [ dev ]
 
 jobs:
   build:
