@@ -16,7 +16,7 @@ namespace AnimalAdoption.Service.Login.UnitTests
             var memoryCache = new MemoryCache(new MemoryCacheOptions());
             var loginService = new LoginService();
 
-            Assert.Equal("DevOps_Team3", loginService.GetLoginUserFromId(loginId))
+            Assert.Equal("DevOps_Team3", loginService.GetLoginUserFromId(loginId));
         }
     }
 }
